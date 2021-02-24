@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat July 11 2020
-
-@author: Chanchal Choudhary
-@discription: Game control by a steering wheel using openCV
 
 This code is inspired by a project by Patel Digant https://github.com/pateldigant/gesture-gaming-python 
 
