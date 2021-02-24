@@ -28,7 +28,7 @@ blueUpper = np.array([180,255,255])
 video = VideoStream(src=0).start()
  
 # allow the camera or video file to warm up
-time.sleep(2.0)
+time.sleep(2.1)
 initial = True
 flag = False
 current_key_pressed = set()
@@ -54,7 +54,7 @@ while True:
     # resize the frame, blur it, and convert it to the HSV color space
     frame = imutils.resize(frame, width=600)
     frame = imutils.resize(frame, height=300)
-
+	
     #storing height and width in varibles 
     height = frame.shape[0]
     width = frame.shape[1]
